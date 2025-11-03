@@ -1,0 +1,5 @@
+This is the repository for the Unity project reader project. 
+
+The goal of this task was making a command line utility which, for a given unity project and for each scene, creates a text file with a hierarchical structure of GameObjects. The utility also creates a .csv file which lists all unused .cs scripts.
+
+The solution was built/tested on Ubuntu OS using gcc toolchain ("gcc --version" : "(Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0") but it should be platform independant. In case the solution is being tested on the Linux OS, it is enough to run the provided makefile which builds the utility and runs it with a given test project.
